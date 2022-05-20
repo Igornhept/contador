@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+p{
+    color: #F2D0A7;
+    font-size: large;
+}
+h1{
+    color: #F2D0A7;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    background-color: #8C5660;
+}
+
+button {
+    height: 90px;
+    width: 90px;
+    border-radius: 30%;
+    border: 2px solid #A65221;
+    background-color: #D9A05B;
+    color: #F2D0A7;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+#counter {
+    display: flex;
+ 
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 20pt;
+    color: #F2D0A7;
+}
